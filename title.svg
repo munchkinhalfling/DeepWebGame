@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 791 89" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Aldrich:400);</style>
+    <style id="bx-google-fonts">
+      @font-face {
+        font-family: 'Aldrich';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/aldrich/v6/j-NnyokbAnhXANS2iZ6Jew.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+      }
+    </style>
   </defs>
   <text x="96.264" y="62.571" style="font-family: Aldrich; font-size: 72px; white-space: pre;">DeepWebGame</text>
 </svg>
