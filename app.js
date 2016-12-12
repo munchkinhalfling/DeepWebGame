@@ -17,3 +17,10 @@ class CodeArea extends HTMLElement {
   }
 }
 customElements.define('code-area', CodeArea);
+// end of config stuff
+var codeArea = document.getElementById('microlang-code-area');
+var hackBtn = document.getElementById('runbtn');
+
+hackBtn.addEventListener('click', () => {
+                         codeArea.evaluate();
+});
