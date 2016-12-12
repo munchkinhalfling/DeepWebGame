@@ -1,5 +1,4 @@
-import * as microlang from './lib/microlang.js'
-var app = angular.module('deep-web-game', []);
+var app = angular.module('deepWebGame', []);
 app.controller('deep-web-ctrl', function($scope) {
   $scope.fullWidth = window.width;
   $scope.fullHeight = window.height;
@@ -13,7 +12,7 @@ class CodeArea extends HTMLElement {
     this.code = this.innerHTML;
   }
   evaluate() {
-    microlang.compandrun(this.code);
+    compandrun(this.code);
   }
 }
 customElements.define('code-area', CodeArea);
