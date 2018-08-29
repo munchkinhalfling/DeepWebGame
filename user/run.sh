@@ -1,1 +1,1 @@
-node host1.js & node tracker.js
+node host1.js tracker.js &
